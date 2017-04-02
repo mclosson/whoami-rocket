@@ -1,0 +1,18 @@
+[package]
+name = "whoami-rocket"
+version = "0.1.0"
+authors = ["Matthew Closson <matthew.closson@gmail.com>"]
+
+[dependencies]
+data-encoding = "*"
+dotenv = "*"
+postgres = "*"
+rust-crypto = "*"
+rand = "*"
+rocket_contrib = "0.2.4"
+rocket = "0.2.4"
+rocket_codegen = "0.2.4"
+rustc-serialize = "*"
+serde = "*"
+serde_derive = "*"
+serde_json = "*"
